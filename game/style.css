@@ -28,7 +28,7 @@
 }
 
 #score {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-style: initial;
   width: 170px;
   height: 50px;
@@ -42,6 +42,7 @@
   0% {
     left: 770px;
   }
+
   100% {
     left: 0px;
   }
@@ -52,19 +53,23 @@
 }
 
 @keyframes jump {
-  0%{
+  0% {
     top: 103px;
   }
-  30%{
+
+  30% {
     top: 70px;
   }
-  50%{
+
+  50% {
     top: 30px;
   }
-  80%{
+
+  80% {
     top: 70px;
   }
-  100%{
+
+  100% {
     top: 103px;
   }
 }
