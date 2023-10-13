@@ -3,13 +3,13 @@
   height: 180px;
   position: relative;
   margin: auto;
-  background-image: url"(img/bg.png)";
+  background-image: url(img/bg.png);
 }
 
 #mario {
   width: 50px;
   height: 50px;
-  background-image: url"(img/mario.png)";
+  background-image: url(img/mario.png);
   background-size: 50px 50px;
   position: relative;
   top: 103px;
@@ -19,7 +19,7 @@
 #bullet {
   width: 50px;
   height: 50px;
-  background-image: url"(img/bullet.png)";
+  background-image: url(img/bullet.png);
   background-size: 50px 50px;
   position: relative;
   top: 50px;
@@ -34,7 +34,7 @@
   height: 50px;
   position: relative;
   top: -150px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   margin: auto;
 }
 
